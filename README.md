@@ -11,12 +11,17 @@ Modified: 2021-06
  3. [License](#license)
 
 ## About
-Macro Logger is an arduino logging library with support for precompilation directives and `printf` formatting. This library is adapted from: [Logger](https://github.com/bakercp/Logger).
+Macro Logger is an arduino logging library with support for precompilation directives and `printf` formatting. This library is adapted from Christopher Baker's [Logger](https://github.com/bakercp/Logger) library.
 
 ## Quickstart
+Install the library from the arduino-cli package manager:
+```bash
+arduino-cli lib install MacroLogger
+```
+
 Below is a snippet of the basic usage:
 ```cpp
-#include "Logger.h"
+#include <Logger.h>
 
 void setup() {
   Serial.begin(9600);
@@ -32,7 +37,7 @@ void loop() {
   delay(500);
 }
 ```
-Output:
+Serial monitor output:
 ```bash
 [CRITICAL] loop:25 This is a critical logging message
 [ERROR] loop:25 This is a error logging message
@@ -40,8 +45,6 @@ Output:
 [INFO] loop:25 This is an info logging message: 5
 [TRACE] loop:25 This is a trace logging message:  
 ```
-
-[tests.ino](./tests/tests.ino) is available for 
 
 ## Licence
 [MIT License](LICENSE)
