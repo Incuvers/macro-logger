@@ -1,5 +1,8 @@
 // -*- lsst-c++ -*-
-
+/**
+ * @brief Logger Definitions
+ * 
+ */
 #pragma once
 #include "Arduino.h"
 
@@ -27,10 +30,9 @@ class Logger {
   static Logger& get();  // return reference to Logger instance
 
  private:
-  // const char*[]
   Logger();
   Logger(const Logger&);
-  void printf(Level level, const char* fmt, va_list argp);
+  void out(Level level, const char* fmt, va_list argp);
   Level _level;
 };
 
