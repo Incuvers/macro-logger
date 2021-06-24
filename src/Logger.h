@@ -1,4 +1,6 @@
 // -*- lsst-c++ -*-
+
+#pragma once
 #include "Arduino.h"
 
 class Logger {
