@@ -1,15 +1,14 @@
 # Macro Logger
+[![ci](https://github.com/Incuvers/macro-logger/actions/workflows/ci.yaml/badge.svg)](https://github.com/Incuvers/macro-logger/actions/workflows/ci.yaml)
 
 Modified: 2021-06
 
-![img](/docs/img/Incuvers-black.png)
+![img](/img/Incuvers-black.png)
 
 ## Navigation
-- [Macro Logger](#macro-logger)
-  - [Navigation](#navigation)
-  - [About](#about)
-  - [Quickstart](#quickstart)
-  - [Licence](#licence)
+ 1. [About](#about)
+ 2. [Quickstart](#quickstart)
+ 3. [License](#license)
 
 ## About
 Macro Logger is an arduino logging library with support for precompilation directives and `printf` formatting. This library is adapted from: [Logger](https://github.com/bakercp/Logger).
