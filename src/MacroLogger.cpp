@@ -9,7 +9,7 @@
  * @copyright Copyright © 2021 Incuvers
  * 
  */
-#include "Logger.h"
+#include "MacroLogger.h"
 #include <Arduino.h>
 
 /**

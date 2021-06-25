@@ -1,6 +1,6 @@
 // -*- lsst-c++ -*-
 
-#include "Logger.h"
+#include "MacroLogger.h"
 
 void setup() {
   Serial.begin(9600);
